@@ -1,0 +1,12 @@
+{
+  "name": "Aanch",
+  "email": "swewde4@gmail.com",
+  "phone": "+1-555-867-5309",
+  "address": {
+    "street": "123 Main Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94105",
+    "country": "USA"
+  }
+}
