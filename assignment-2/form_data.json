@@ -1,0 +1,14 @@
+{
+  "firstName": "Aanl",
+  "lastName": "Wde",
+  "email": "awa524@gmail.com",
+  "gender": "Female",
+  "mobile": "9876543210",
+  "dateOfBirth": "25 Jun 2000",
+  "subjects": ["Maths", "English"],
+  "hobbies": ["Sports", "Reading"],
+  "picturePath": "",
+  "currentAddress": "123 Main Street, San Francisco, CA",
+  "state": "NCR",
+  "city": "Delhi"
+}
