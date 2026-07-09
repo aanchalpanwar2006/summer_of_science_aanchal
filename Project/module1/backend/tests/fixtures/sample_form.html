@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Sample Form</title></head>
+<body>
+  <form>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="bio">Bio</label>
+    <textarea id="bio" name="bio"></textarea>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="">--</option>
+      <option value="us">United States</option>
+      <option value="in">India</option>
+    </select>
+
+    <fieldset>
+      <legend>Gender</legend>
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Hobbies</legend>
+      <label><input type="checkbox" name="hobbies" value="reading"> Reading</label>
+      <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+    </fieldset>
+
+    <label><input type="checkbox" name="agree"> I agree to the terms</label>
+
+    <label for="resume">Resume</label>
+    <input type="file" id="resume" name="resume">
+
+    <iframe title="nested" srcdoc="<label for='nested_name'>Nested Name</label><input type='text' id='nested_name' name='nested_name'>"></iframe>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
